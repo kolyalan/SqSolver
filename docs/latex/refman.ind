@@ -1,0 +1,57 @@
+\begin{theindex}
+
+  \item {\_\_ABC}
+    \subitem {run\_tests.cpp}, \hyperpage{4}
+  \item {\_\_PAIR}
+    \subitem {run\_tests.cpp}, \hyperpage{4}
+
+  \indexspace
+
+  \item {EPS}
+    \subitem {SquareSolver.h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {isZero}
+    \subitem {SquareSolver.h}, \hyperpage{5}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{3}
+    \subitem {run\_tests.cpp}, \hyperpage{4}
+  \item {main.cpp}, \hyperpage{3}
+    \subitem {main}, \hyperpage{3}
+
+  \indexspace
+
+  \item {pair\_match}
+    \subitem {run\_tests.cpp}, \hyperpage{4}
+
+  \indexspace
+
+  \item {run\_tests.cpp}, \hyperpage{3}
+    \subitem {\_\_ABC}, \hyperpage{4}
+    \subitem {\_\_PAIR}, \hyperpage{4}
+    \subitem {main}, \hyperpage{4}
+    \subitem {pair\_match}, \hyperpage{4}
+    \subitem {test}, \hyperpage{4}
+
+  \indexspace
+
+  \item {solveSquareEquation}
+    \subitem {SquareSolver.h}, \hyperpage{6}
+  \item {SQ\_INF\_ROOTS}
+    \subitem {SquareSolver.h}, \hyperpage{5}
+  \item {SquareSolver.h}, \hyperpage{5}
+    \subitem {EPS}, \hyperpage{6}
+    \subitem {isZero}, \hyperpage{5}
+    \subitem {solveSquareEquation}, \hyperpage{6}
+    \subitem {SQ\_INF\_ROOTS}, \hyperpage{5}
+
+  \indexspace
+
+  \item {test}
+    \subitem {run\_tests.cpp}, \hyperpage{4}
+
+\end{theindex}

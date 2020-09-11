@@ -1,0 +1,25 @@
+var NAVTREEINDEX0 =
+{
+"_square_solver_8h.html":[0,0,2],
+"_square_solver_8h.html#a06fc87d81c62e9abb8790b6e5713c55baf984b2a777c0501e5d6521357786a9fd":[0,0,2,0],
+"_square_solver_8h.html#a28885057d0ddf198bc046b5f97a9c2e3":[0,0,2,2],
+"_square_solver_8h.html#ae66d41e775307f738889658781ddf823":[0,0,2,1],
+"_square_solver_8h.html#afe01386a82fedc016455a43c20280a97":[0,0,2,3],
+"_square_solver_8h_source.html":[0,0,2],
+"files.html":[0,0],
+"globals.html":[0,1,0],
+"globals_defs.html":[0,1,4],
+"globals_eval.html":[0,1,3],
+"globals_func.html":[0,1,1],
+"globals_vars.html":[0,1,2],
+"index.html":[],
+"main_8cpp.html":[0,0,0],
+"main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[0,0,0,0],
+"pages.html":[],
+"run__tests_8cpp.html":[0,0,1],
+"run__tests_8cpp.html#a0762a16ee1078f7d732669d15f06b094":[0,0,1,3],
+"run__tests_8cpp.html#a32aa2eb192f9b66db1ec2fab56f81712":[0,0,1,0],
+"run__tests_8cpp.html#a9bfc7f5810bc83284b1a985ac8a2d854":[0,0,1,1],
+"run__tests_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[0,0,1,2],
+"run__tests_8cpp.html#afff436c0c57237b20f5fc0b6779336a5":[0,0,1,4]
+};

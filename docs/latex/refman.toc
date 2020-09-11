@@ -1,0 +1,24 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}File Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}File List}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Documentation}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Function Documentation}{3}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}main()}{3}{subsubsection.2.1.1.1}%
+\contentsline {section}{\numberline {2.2}run\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}tests.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp File Reference}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Macro Definition Documentation}{4}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}\_\_ABC}{4}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}\_\_PAIR}{4}{subsubsection.2.2.1.2}%
+\contentsline {subsection}{\numberline {2.2.2}Function Documentation}{4}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}main()}{4}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}pair\_match()}{4}{subsubsection.2.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}test()}{5}{subsubsection.2.2.2.3}%
+\contentsline {section}{\numberline {2.3}Square\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Solver.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h File Reference}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Enumeration Type Documentation}{5}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}anonymous enum}{5}{subsubsection.2.3.1.1}%
+\contentsline {subsection}{\numberline {2.3.2}Function Documentation}{5}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}isZero()}{6}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}solveSquareEquation()}{6}{subsubsection.2.3.2.2}%
+\contentsline {subsection}{\numberline {2.3.3}Variable Documentation}{6}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}EPS}{6}{subsubsection.2.3.3.1}%
+\contentsline {chapter}{Index}{7}{section*.7}%
