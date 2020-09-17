@@ -5,12 +5,15 @@
 #define __ABC(a, b, c) "a = " << (a) << ", b = " << (b) << ", c = " << (c) << "."
 #define __PAIR(x, y) "(" << x << ", " << y << ")" 
 
+bool equal(double a, double b) {
+    return std::abs(a - b) < EPS;
+}
+
 bool pair_match(int n, double a, double b, double x, double y)
 {
     if (n == 0) return 1;
     if (n == 1) return a == x;
-    if (n == 2) return (std::abs(a - x) < EPS && std::abs(b - y) < EPS) || 
-                       (std::abs(a - y) < EPS && std::abs(b - x) < EPS);
+    if (n == 2) return (equal(a, x) && equal(b, y)) || (equal(a, y) && equal(b, x));
     if (n == SQ_INF_ROOTS) return 1;
     return 0;
 }
