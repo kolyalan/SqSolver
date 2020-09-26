@@ -1,5 +1,6 @@
 #include <iostream>
-#include "SquareSolver.h"
+#include <cmath>
+#include "SquareSolver.hpp"
 
 int main()
 {
@@ -12,7 +13,7 @@ int main()
     std::cout << "c = " << std::flush;
     std::cin >> c;
     
-    double x1 = 0, x2 = 0;
+    double x1 = NAN, x2 = NAN;
     int nRoots = solveSquareEquation(a, b, c, &x1, &x2);
 
     if (nRoots == 0) {

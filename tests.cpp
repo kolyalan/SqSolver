@@ -1,4 +1,4 @@
-#include "SquareSolver.h"
+#include "SquareSolver.hpp"
 #include <functional>
 #include <iostream>
 
@@ -12,7 +12,7 @@ bool equal(double a, double b) {
 bool pair_match(int n, double a, double b, double x, double y)
 {
     if (n == 0) return 1;
-    if (n == 1) return a == x;
+    if (n == 1) return equal(a, x);
     if (n == 2) return (equal(a, x) && equal(b, y)) || (equal(a, y) && equal(b, x));
     if (n == SQ_INF_ROOTS) return 1;
     return 0;
@@ -22,7 +22,7 @@ void test(std::function<int(double, double, double, double*, double*)> f,
         double a, double b, double c, int expNRoots, double exp_x1, double exp_x2) 
 {
     double x1 = 0, x2 = 0;
-    int nRoots = solveSquareEquation(a, b, c, &x1, &x2);
+    int nRoots = f(a, b, c, &x1, &x2);
     if (nRoots != expNRoots) {
         std::cerr << "[FAILED] " << __ABC(a, b, c) <<
                 " return value = " << nRoots << ", expected " << expNRoots << std::endl;
@@ -38,12 +38,14 @@ void test(std::function<int(double, double, double, double*, double*)> f,
 
 int main()
 {
-    test(solveSquareEquation, 0, 1,  2,     1, -2,      0);
-    test(solveSquareEquation, 7, 3, -10,    2,  1,  -10.0/7);
-    test(solveSquareEquation, 0, 0,  0,     SQ_INF_ROOTS, 0, 0);
-    test(solveSquareEquation, 0, 0,  2,     0, 0, 0);
-    test(solveSquareEquation, 5, 5,  5,     0, 0, 0);
-    test(solveSquareEquation, -10, 5,  5,   2, -0.5, 1);
-    test(solveSquareEquation, -10, 5, -0.625, 1, 0.25,      0);
+    /*------------------------/----input----\/---expected-output---\
+     *-------------------------a---b-------c---nRoots-----x1----x2--*/
+    test(solveSquareEquation,  0,  1,      2,     1,      -2,   0);
+    test(solveSquareEquation,  7,  3,    -10,     2,       1,-10.0/7);
+    test(solveSquareEquation,  0,  0,      0, SQ_INF_ROOTS,0,   0);
+    test(solveSquareEquation,  0,  0,      2,     0,       0,   0);
+    test(solveSquareEquation,  5,  5,      5,     0,       0,   0);
+    test(solveSquareEquation, -10, 5,      5,     2,    -0.5,   1);
+    test(solveSquareEquation, -10, 5, -0.625,     1,    0.25,   0);
     
 }
